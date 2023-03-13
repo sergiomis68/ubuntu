@@ -9,5 +9,5 @@ RUN \
  
 USER 1001
 
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT ["sleep", "infinity"]
  EXPOSE 8080
