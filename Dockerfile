@@ -4,6 +4,7 @@ MAINTAINER sergione
 
 RUN \
  apt-get update && \
+ apt-get -y install iperf && \
  apt-get -y install iperf3 && \
  apt-get -y install netperf
  
